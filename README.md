@@ -12,9 +12,13 @@ CSS slide transitions for [Bespoke.js](http://markdalgleish.com/projects/bespoke
 
 并修改bespoke-fx已知的BUG。
 
-*PS*: 插件依赖于modernizr.custom.js，使用时需引入。
+*PS*: 插件依赖于`modernizr.custom.js`，使用时需引入，并且需要引入`/lib/*.css`
 
 后期将合并打包modernizr.custom.js,使用时只需引入`/dist/bespoke-tf.min.js`。
+
+---------
+
+*tf*指的是transform,应为改插件主要是通过改变css样式实现幻灯片的效果。
 
 ## Download
 
