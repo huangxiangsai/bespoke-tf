@@ -6,9 +6,9 @@ CSS slide transitions for [Bespoke.js](http://markdalgleish.com/projects/bespoke
 
 ## 说明
 
-原bespoke-fx.js插件的改版，bespoke-fx插件基于比较老的bespoke版本开发，由于最新的bespoke上接口的调整导致在无法与新版bespoke适配。
+原bespoke-fx.js插件的改版，bespoke-fx插件基于比较老的bespoke版本开发，由于最新的bespoke(`v1.1.0`)上接口的调整导致插件无法适配。
 
-顾重新使用官方提供的插件生成器，生成基于bespoke-fx的插件
+故，重新使用官方提供的插件生成器，生成基于bespoke-fx的插件
 
 并修改bespoke-fx已知的BUG。
 
@@ -19,6 +19,10 @@ CSS slide transitions for [Bespoke.js](http://markdalgleish.com/projects/bespoke
 ---------
 
 *tf*指的是transform,应为改插件主要是通过改变css样式实现幻灯片的效果。
+
+## 使用说明
+
+* 需要引用
 
 ## Download
 
@@ -56,12 +60,6 @@ bespoke.from('#presentation', [
 
 ```bash
 $ npm install bespoke-tf
-```
-
-### Bower
-
-```bash
-$ bower install bespoke-tf
 ```
 
 ## Credits
