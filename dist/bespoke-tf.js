@@ -780,6 +780,7 @@ module.exports = function(options) {
     },
     
     doTransition: function(outSlide, inSlide, directive) { // RUN TRANSITIONS ON SLIDES
+      if(!outSlide || !inSlide){return } // 未找到元素，直接返回
       var axis = inSlide.getAttribute('data-bespoke-fx-direction') ?
         this.getAxisFromDirection(inSlide.getAttribute('data-bespoke-fx-direction')) : this.default_axis;
       
